@@ -1,0 +1,14 @@
+logging:
+  level:
+    root: info
+    me.study.hellooauth: debug
+
+
+
+feign:
+  client:
+    config:
+
+spring:
+  profiles:
+    include: oauth, datasource
